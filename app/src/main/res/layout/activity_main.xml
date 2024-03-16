@@ -18,6 +18,73 @@
         android:fontFamily="sans-serif-smallcaps"
         />
 
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:id="@+id/horizontal_buttons">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_1"
+                android:layout_margin="6dp"
+                android:textColor="@color/white"
+                android:text="GENERAL"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_2"
+                android:textColor="@color/white"
+                android:layout_margin="6dp"
+                android:text="BUSINESS"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:id="@+id/btn_3"
+                android:layout_margin="6dp"
+                android:text="SPORTS"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:id="@+id/btn_4"
+                android:layout_margin="6dp"
+                android:text="TECHNOLOGY"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_5"
+                android:layout_margin="6dp"
+                android:text="HEALTH"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:id="@+id/btn_6"
+                android:layout_margin="6dp"
+                android:text="INTERTAINMENT"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_7"
+                android:layout_margin="6dp"
+                android:text="SCIENCE"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
     <com.google.android.material.progressindicator.LinearProgressIndicator
         android:id="@+id/progress_bar"
         android:layout_width="match_parent"
